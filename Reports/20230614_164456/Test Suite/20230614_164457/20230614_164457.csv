@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite,Chrome 114.0.0.0,,,2023-06-14 16:45:06,2023-06-14 16:45:14,8.604s,FAILED
+,,,,,,,
+Test Cases/Login Berhasil,Chrome 114.0.0.0,,,2023-06-14 16:45:06,2023-06-14 16:45:10,4.204s,FAILED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-14 16:45:06,2023-06-14 16:45:09,2.793s,PASSED
+"navigateToUrl(""https://genesis.dutatani.id/si_petani/login.php?pesan=Mohon%20Login"")",Chrome 114.0.0.0,,,2023-06-14 16:45:09,2023-06-14 16:45:10,0.968s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_ID User_id_user""), ""tester_otomasi"")",Chrome 114.0.0.0,,,2023-06-14 16:45:10,2023-06-14 16:45:10,0.192s,FAILED
+,,,,,,,
+Test Cases/Inser Petani Berhasil - Variable,Chrome 114.0.0.0,,,2023-06-14 16:45:10,2023-06-14 16:45:14,4.210s,FAILED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-14 16:45:10,2023-06-14 16:45:13,2.415s,PASSED
+"navigateToUrl(""https://genesis.dutatani.id/si_petani/login.php?pesan=Mohon%20Login"")",Chrome 114.0.0.0,,,2023-06-14 16:45:13,2023-06-14 16:45:13,0.631s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_ID User_id_user (1)""), ""tester_otomasi"")",Chrome 114.0.0.0,,,2023-06-14 16:45:13,2023-06-14 16:45:14,0.780s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_/input_Password_password (1)""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 114.0.0.0,,,2023-06-14 16:45:14,2023-06-14 16:45:14,0.116s,FAILED

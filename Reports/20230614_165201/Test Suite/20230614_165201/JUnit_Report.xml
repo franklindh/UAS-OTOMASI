@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite" time="21.506" tests="3" failures="0" errors="3">
+   <testsuite name="Test Suite" tests="3" failures="0" errors="3" time="21.506" skipped="0" timestamp="2023-06-14 16:52:08" hostname="email - LAPTOP-BN6F7478" id="Test Suites/Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\S6\\Pengujian Terotomasi\\UAS\\UAS OTOMASI\\Reports\\20230614_165201\\Test Suite\\20230614_165201"/>
+         <property name="logFiles" value="D:\\S6\\Pengujian Terotomasi\\UAS\\UAS OTOMASI\\Reports\\20230614_165201\\Test Suite\\20230614_165201\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="email - LAPTOP-BN6F7478"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.122"/>
+         <property name="sessionId" value="e3282a96bb8b21dae14560621c10c227"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Inser Petani Berhasil - Variable" time="7.584" classname="Test Cases/Inser Petani Berhasil - Variable" status="ERROR">
+         <error type="ERROR" message="Test Cases/Inser Petani Berhasil - Variable FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: suami for class: Script1686732876793
+	at Inser Petani Berhasil - Variable.run(Inser Petani Berhasil - Variable:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686736321039.run(TempTestSuite1686736321039.groovy:36)
+"/>
+         <system-out><![CDATA[2023-06-14 16:52:08 - [TEST_CASE][ERROR] - Test Cases/Inser Petani Berhasil - Variable: Test Cases/Inser Petani Berhasil - Variable FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: suami for class: Script1686732876793
+	at Inser Petani Berhasil - Variable.run(Inser Petani Berhasil - Variable:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686736321039.run(TempTestSuite1686736321039.groovy:36)
+
+
+2023-06-14 16:52:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-14 16:52:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-14 16:52:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-14 16:52:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-14 16:52:11 - [TEST_STEP][PASSED] - navigateToUrl("https://genesis.dutatani.id/si_petani/login.php?pesan=Mohon%20Login"): Navigate to 'https://genesis.dutatani.id/si_petani/login.php?pesan=Mohon%20Login' successfully
+
+2023-06-14 16:52:12 - [MESSAGE][PASSED] - Navigate to 'https://genesis.dutatani.id/si_petani/login.php?pesan=Mohon%20Login' successfully
+
+2023-06-14 16:52:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input_ID User_id_user (1)"), "tester_otomasi"): Text 'tester_otomasi' is set on object 'Object Repository/Page_/input_ID User_id_user (1)'
+
+2023-06-14 16:52:13 - [MESSAGE][PASSED] - Text 'tester_otomasi' is set on object 'Object Repository/Page_/input_ID User_id_user (1)'
+
+2023-06-14 16:52:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_/input_Password_password (1)"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Page_/input_Password_password (1)'
+
+2023-06-14 16:52:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_password (1)'
+
+2023-06-14 16:52:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/input_Password_btn btn-primary btn-lg (1)")): Object: 'Object Repository/Page_/input_Password_btn btn-primary btn-lg (1)' is clicked on
+
+2023-06-14 16:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_Password_btn btn-primary btn-lg (1)' is clicked on
+
+2023-06-14 16:52:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/a_Pendataan Petani")): Object: 'Object Repository/Page_/a_Pendataan Petani' is clicked on
+
+2023-06-14 16:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_Pendataan Petani' is clicked on
+
+2023-06-14 16:52:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input_Id User_id_user (2)"), id_user): Text '450' is set on object 'Object Repository/Page_/input_Id User_id_user (2)'
+
+2023-06-14 16:52:15 - [MESSAGE][PASSED] - Text '450' is set on object 'Object Repository/Page_/input_Id User_id_user (2)'
+
+2023-06-14 16:52:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input_Nama Petani_nama_petani"), nama_petani): Text 'Asep' is set on object 'Object Repository/Page_/input_Nama Petani_nama_petani'
+
+2023-06-14 16:52:16 - [MESSAGE][PASSED] - Text 'Asep' is set on object 'Object Repository/Page_/input_Nama Petani_nama_petani'
+
+2023-06-14 16:52:16 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/Page_/input_Nama Istri  Suami_nama_istri"), nama_istri / suami): Test Cases/Inser Petani Berhasil - Variable FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: suami for class: Script1686732876793
+	at Inser Petani Berhasil - Variable.run(Inser Petani Berhasil - Variable:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686736321039.run(TempTestSuite1686736321039.groovy:36)
+
+
+2023-06-14 16:52:16 - [MESSAGE][ERROR] - Test Cases/Inser Petani Berhasil - Variable FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: suami for class: Script1686732876793
+	at Inser Petani Berhasil - Variable.run(Inser Petani Berhasil - Variable:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686736321039.run(TempTestSuite1686736321039.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-06-14 16:52:08 - [TEST_CASE][ERROR] - Test Cases/Inser Petani Berhasil - Variable: Test Cases/Inser Petani Berhasil - Variable FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: suami for class: Script1686732876793
+	at Inser Petani Berhasil - Variable.run(Inser Petani Berhasil - Variable:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686736321039.run(TempTestSuite1686736321039.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Inser Petani Berhasil - Variable" time="7.134" classname="Test Cases/Inser Petani Berhasil - Variable" status="ERROR">
+         <error type="ERROR" message="Test Cases/Inser Petani Berhasil - Variable FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: suami for class: Script1686732876793
+	at Inser Petani Berhasil - Variable.run(Inser Petani Berhasil - Variable:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686736321039.run(TempTestSuite1686736321039.groovy:36)
+"/>
+         <system-out><![CDATA[2023-06-14 16:52:16 - [TEST_CASE][ERROR] - Test Cases/Inser Petani Berhasil - Variable: Test Cases/Inser Petani Berhasil - Variable FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: suami for class: Script1686732876793
+	at Inser Petani Berhasil - Variable.run(Inser Petani Berhasil - Variable:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686736321039.run(TempTestSuite1686736321039.groovy:36)
+
+
+2023-06-14 16:52:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-14 16:52:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-06-14 16:52:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-14 16:52:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-14 16:52:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-14 16:52:18 - [TEST_STEP][PASSED] - navigateToUrl("https://genesis.dutatani.id/si_petani/login.php?pesan=Mohon%20Login"): Navigate to 'https://genesis.dutatani.id/si_petani/login.php?pesan=Mohon%20Login' successfully
+
+2023-06-14 16:52:19 - [MESSAGE][PASSED] - Navigate to 'https://genesis.dutatani.id/si_petani/login.php?pesan=Mohon%20Login' successfully
+
+2023-06-14 16:52:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input_ID User_id_user (1)"), "tester_otomasi"): Text 'tester_otomasi' is set on object 'Object Repository/Page_/input_ID User_id_user (1)'
+
+2023-06-14 16:52:20 - [MESSAGE][PASSED] - Text 'tester_otomasi' is set on object 'Object Repository/Page_/input_ID User_id_user (1)'
+
+2023-06-14 16:52:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_/input_Password_password (1)"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Page_/input_Password_password (1)'
+
+2023-06-14 16:52:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_password (1)'
+
+2023-06-14 16:52:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/input_Password_btn btn-primary btn-lg (1)")): Object: 'Object Repository/Page_/input_Password_btn btn-primary btn-lg (1)' is clicked on
+
+2023-06-14 16:52:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_Password_btn btn-primary btn-lg (1)' is clicked on
+
+2023-06-14 16:52:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/a_Pendataan Petani")): Object: 'Object Repository/Page_/a_Pendataan Petani' is clicked on
+
+2023-06-14 16:52:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_Pendataan Petani' is clicked on
+
+2023-06-14 16:52:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input_Id User_id_user (2)"), id_user): Text '460' is set on object 'Object Repository/Page_/input_Id User_id_user (2)'
+
+2023-06-14 16:52:22 - [MESSAGE][PASSED] - Text '460' is set on object 'Object Repository/Page_/input_Id User_id_user (2)'
+
+2023-06-14 16:52:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input_Nama Petani_nama_petani"), nama_petani): Text 'Budi' is set on object 'Object Repository/Page_/input_Nama Petani_nama_petani'
+
+2023-06-14 16:52:23 - [MESSAGE][PASSED] - Text 'Budi' is set on object 'Object Repository/Page_/input_Nama Petani_nama_petani'
+
+2023-06-14 16:52:23 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/Page_/input_Nama Istri  Suami_nama_istri"), nama_istri / suami): Test Cases/Inser Petani Berhasil - Variable FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: suami for class: Script1686732876793
+	at Inser Petani Berhasil - Variable.run(Inser Petani Berhasil - Variable:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686736321039.run(TempTestSuite1686736321039.groovy:36)
+
+
+2023-06-14 16:52:23 - [MESSAGE][ERROR] - Test Cases/Inser Petani Berhasil - Variable FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: suami for class: Script1686732876793
+	at Inser Petani Berhasil - Variable.run(Inser Petani Berhasil - Variable:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686736321039.run(TempTestSuite1686736321039.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-06-14 16:52:16 - [TEST_CASE][ERROR] - Test Cases/Inser Petani Berhasil - Variable: Test Cases/Inser Petani Berhasil - Variable FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: suami for class: Script1686732876793
+	at Inser Petani Berhasil - Variable.run(Inser Petani Berhasil - Variable:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686736321039.run(TempTestSuite1686736321039.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Inser Petani Berhasil - Variable" time="6.423" classname="Test Cases/Inser Petani Berhasil - Variable" status="ERROR">
+         <error type="ERROR" message="Test Cases/Inser Petani Berhasil - Variable FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: suami for class: Script1686732876793
+	at Inser Petani Berhasil - Variable.run(Inser Petani Berhasil - Variable:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686736321039.run(TempTestSuite1686736321039.groovy:36)
+"/>
+         <system-out><![CDATA[2023-06-14 16:52:23 - [TEST_CASE][ERROR] - Test Cases/Inser Petani Berhasil - Variable: Test Cases/Inser Petani Berhasil - Variable FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: suami for class: Script1686732876793
+	at Inser Petani Berhasil - Variable.run(Inser Petani Berhasil - Variable:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686736321039.run(TempTestSuite1686736321039.groovy:36)
+
+
+2023-06-14 16:52:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-14 16:52:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-06-14 16:52:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-14 16:52:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-14 16:52:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-14 16:52:25 - [TEST_STEP][PASSED] - navigateToUrl("https://genesis.dutatani.id/si_petani/login.php?pesan=Mohon%20Login"): Navigate to 'https://genesis.dutatani.id/si_petani/login.php?pesan=Mohon%20Login' successfully
+
+2023-06-14 16:52:26 - [MESSAGE][PASSED] - Navigate to 'https://genesis.dutatani.id/si_petani/login.php?pesan=Mohon%20Login' successfully
+
+2023-06-14 16:52:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input_ID User_id_user (1)"), "tester_otomasi"): Text 'tester_otomasi' is set on object 'Object Repository/Page_/input_ID User_id_user (1)'
+
+2023-06-14 16:52:26 - [MESSAGE][PASSED] - Text 'tester_otomasi' is set on object 'Object Repository/Page_/input_ID User_id_user (1)'
+
+2023-06-14 16:52:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_/input_Password_password (1)"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Page_/input_Password_password (1)'
+
+2023-06-14 16:52:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_password (1)'
+
+2023-06-14 16:52:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/input_Password_btn btn-primary btn-lg (1)")): Object: 'Object Repository/Page_/input_Password_btn btn-primary btn-lg (1)' is clicked on
+
+2023-06-14 16:52:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_Password_btn btn-primary btn-lg (1)' is clicked on
+
+2023-06-14 16:52:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/a_Pendataan Petani")): Object: 'Object Repository/Page_/a_Pendataan Petani' is clicked on
+
+2023-06-14 16:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/a_Pendataan Petani' is clicked on
+
+2023-06-14 16:52:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input_Id User_id_user (2)"), id_user): Text '470' is set on object 'Object Repository/Page_/input_Id User_id_user (2)'
+
+2023-06-14 16:52:29 - [MESSAGE][PASSED] - Text '470' is set on object 'Object Repository/Page_/input_Id User_id_user (2)'
+
+2023-06-14 16:52:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input_Nama Petani_nama_petani"), nama_petani): Text 'Budi' is set on object 'Object Repository/Page_/input_Nama Petani_nama_petani'
+
+2023-06-14 16:52:29 - [MESSAGE][PASSED] - Text 'Budi' is set on object 'Object Repository/Page_/input_Nama Petani_nama_petani'
+
+2023-06-14 16:52:29 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/Page_/input_Nama Istri  Suami_nama_istri"), nama_istri / suami): Test Cases/Inser Petani Berhasil - Variable FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: suami for class: Script1686732876793
+	at Inser Petani Berhasil - Variable.run(Inser Petani Berhasil - Variable:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686736321039.run(TempTestSuite1686736321039.groovy:36)
+
+
+2023-06-14 16:52:29 - [MESSAGE][ERROR] - Test Cases/Inser Petani Berhasil - Variable FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: suami for class: Script1686732876793
+	at Inser Petani Berhasil - Variable.run(Inser Petani Berhasil - Variable:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686736321039.run(TempTestSuite1686736321039.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-06-14 16:52:23 - [TEST_CASE][ERROR] - Test Cases/Inser Petani Berhasil - Variable: Test Cases/Inser Petani Berhasil - Variable FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: suami for class: Script1686732876793
+	at Inser Petani Berhasil - Variable.run(Inser Petani Berhasil - Variable:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686736321039.run(TempTestSuite1686736321039.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-14 16:52:08 - [TEST_SUITE][ERROR] - Test Suite: Test Cases/Inser Petani Berhasil - Variable FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: suami for class: Script1686732876793
+	at Inser Petani Berhasil - Variable.run(Inser Petani Berhasil - Variable:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686736321039.run(TempTestSuite1686736321039.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-06-14 16:52:08 - [TEST_SUITE][ERROR] - Test Suite: Test Cases/Inser Petani Berhasil - Variable FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: suami for class: Script1686732876793
+	at Inser Petani Berhasil - Variable.run(Inser Petani Berhasil - Variable:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686736321039.run(TempTestSuite1686736321039.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

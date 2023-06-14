@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite,Chrome 114.0.0.0,,,2023-06-14 16:52:08,2023-06-14 16:52:29,21.506s,ERROR
+,,,,,,,
+Test Cases/Inser Petani Berhasil - Variable,Chrome 114.0.0.0,,,2023-06-14 16:52:08,2023-06-14 16:52:16,7.584s,ERROR
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-14 16:52:08,2023-06-14 16:52:11,2.712s,PASSED
+"navigateToUrl(""https://genesis.dutatani.id/si_petani/login.php?pesan=Mohon%20Login"")",Chrome 114.0.0.0,,,2023-06-14 16:52:11,2023-06-14 16:52:12,0.617s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_ID User_id_user (1)""), ""tester_otomasi"")",Chrome 114.0.0.0,,,2023-06-14 16:52:12,2023-06-14 16:52:13,0.759s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_/input_Password_password (1)""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 114.0.0.0,,,2023-06-14 16:52:13,2023-06-14 16:52:13,0.430s,PASSED
+"click(findTestObject(""Object Repository/Page_/input_Password_btn btn-primary btn-lg (1)""))",Chrome 114.0.0.0,,,2023-06-14 16:52:13,2023-06-14 16:52:14,0.640s,PASSED
+"click(findTestObject(""Object Repository/Page_/a_Pendataan Petani""))",Chrome 114.0.0.0,,,2023-06-14 16:52:14,2023-06-14 16:52:14,0.672s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Id User_id_user (2)""), id_user)",Chrome 114.0.0.0,,,2023-06-14 16:52:14,2023-06-14 16:52:15,0.750s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Nama Petani_nama_petani""), nama_petani)",Chrome 114.0.0.0,,,2023-06-14 16:52:15,2023-06-14 16:52:16,0.635s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Nama Istri  Suami_nama_istri""), nama_istri / suami)",Chrome 114.0.0.0,,,2023-06-14 16:52:16,2023-06-14 16:52:16,0.052s,ERROR
+,,,,,,,
+Test Cases/Inser Petani Berhasil - Variable,Chrome 114.0.0.0,,,2023-06-14 16:52:16,2023-06-14 16:52:23,7.134s,ERROR
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-14 16:52:16,2023-06-14 16:52:18,2.477s,PASSED
+"navigateToUrl(""https://genesis.dutatani.id/si_petani/login.php?pesan=Mohon%20Login"")",Chrome 114.0.0.0,,,2023-06-14 16:52:18,2023-06-14 16:52:19,0.975s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_ID User_id_user (1)""), ""tester_otomasi"")",Chrome 114.0.0.0,,,2023-06-14 16:52:19,2023-06-14 16:52:20,0.840s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_/input_Password_password (1)""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 114.0.0.0,,,2023-06-14 16:52:20,2023-06-14 16:52:20,0.384s,PASSED
+"click(findTestObject(""Object Repository/Page_/input_Password_btn btn-primary btn-lg (1)""))",Chrome 114.0.0.0,,,2023-06-14 16:52:20,2023-06-14 16:52:21,0.505s,PASSED
+"click(findTestObject(""Object Repository/Page_/a_Pendataan Petani""))",Chrome 114.0.0.0,,,2023-06-14 16:52:21,2023-06-14 16:52:21,0.489s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Id User_id_user (2)""), id_user)",Chrome 114.0.0.0,,,2023-06-14 16:52:21,2023-06-14 16:52:22,0.779s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Nama Petani_nama_petani""), nama_petani)",Chrome 114.0.0.0,,,2023-06-14 16:52:22,2023-06-14 16:52:23,0.645s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Nama Istri  Suami_nama_istri""), nama_istri / suami)",Chrome 114.0.0.0,,,2023-06-14 16:52:23,2023-06-14 16:52:23,0.031s,ERROR
+,,,,,,,
+Test Cases/Inser Petani Berhasil - Variable,Chrome 114.0.0.0,,,2023-06-14 16:52:23,2023-06-14 16:52:29,6.423s,ERROR
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-14 16:52:23,2023-06-14 16:52:25,2.423s,PASSED
+"navigateToUrl(""https://genesis.dutatani.id/si_petani/login.php?pesan=Mohon%20Login"")",Chrome 114.0.0.0,,,2023-06-14 16:52:25,2023-06-14 16:52:26,0.586s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_ID User_id_user (1)""), ""tester_otomasi"")",Chrome 114.0.0.0,,,2023-06-14 16:52:26,2023-06-14 16:52:26,0.463s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_/input_Password_password (1)""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 114.0.0.0,,,2023-06-14 16:52:26,2023-06-14 16:52:27,0.435s,PASSED
+"click(findTestObject(""Object Repository/Page_/input_Password_btn btn-primary btn-lg (1)""))",Chrome 114.0.0.0,,,2023-06-14 16:52:27,2023-06-14 16:52:27,0.484s,PASSED
+"click(findTestObject(""Object Repository/Page_/a_Pendataan Petani""))",Chrome 114.0.0.0,,,2023-06-14 16:52:27,2023-06-14 16:52:28,0.452s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Id User_id_user (2)""), id_user)",Chrome 114.0.0.0,,,2023-06-14 16:52:28,2023-06-14 16:52:29,0.845s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Nama Petani_nama_petani""), nama_petani)",Chrome 114.0.0.0,,,2023-06-14 16:52:29,2023-06-14 16:52:29,0.667s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Nama Istri  Suami_nama_istri""), nama_istri / suami)",Chrome 114.0.0.0,,,2023-06-14 16:52:29,2023-06-14 16:52:29,0.037s,ERROR
